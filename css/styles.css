@@ -8,18 +8,40 @@ h1 {
 
 h3 {
     color: blue;
-    font-size: 15px;
+    font-size: 12px!important;
+
+    text-align: center;
+    display: block;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font: normal 20px/20px Courier;
+    text-decoration: none!important;
 }
 
 h3:hover {
     color: red;
 }
 
-.youtubeApi{
+.youtubeApi {
     font-style: italic;
     font-weight: bold;
 }
 
+.videotable {
+    display: inline-grid;
+}
+
+.imagelink,
+.link {
+    display: block;
+}
+
+
+/* .results{
+    display: inline-grid;
+} */
 
 img.video {
     max-width: 100%;
@@ -60,8 +82,8 @@ img.video {
 }
 
 /*Media Query*/
-@media only screen and (max-width:750px){
-    .searchvideo{
+@media only screen and (max-width:770px) {
+    .searchvideo {
         text-align: center;
     }
 }
