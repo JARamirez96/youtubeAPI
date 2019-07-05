@@ -17,7 +17,11 @@ h3 {
     margin-bottom: 5px;
     overflow: hidden;
     font: normal 20px/20px Courier;
-    text-decoration: none!important;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
 }
 
 h3:hover {
